@@ -50,7 +50,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                      href="#"
                     >
                       About Us
                     </Link>
@@ -58,7 +58,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-profile"
+                      href="#"
                     >
                       Blog
                     </Link>
@@ -66,7 +66,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                      href="#"
                     >
                       Github
                     </Link>
@@ -74,7 +74,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                      href="#"
                     >
                       Free Products
                     </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
+                      href="#"
                     >
                       MIT License
                     </Link>
@@ -97,7 +97,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms?ref=njs-profile"
+                      href="#"
                     >
                       Terms &amp; Conditions
                     </Link>
@@ -105,7 +105,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy?ref=njs-profile"
+                      href="#"
                     >
                       Privacy Policy
                     </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us?ref=njs-profile"
+                      href="#"
                     >
                       Contact Us
                     </Link>
@@ -129,10 +129,7 @@ const Footer = () => {
             <div className="text-sm text-gray-500 font-semibold py-1">
               Copyright © <span id="get-current-year">2024</span>
               <label className="text-gray-500 hover:text-gray-800"> by </label>
-              <Link
-                href="https://www.creative-tim.com?ref=njs-profile"
-                className="text-gray-500 hover:text-gray-800"
-              >
+              <Link href="#" className="text-gray-500 hover:text-gray-800">
                 Zoma
               </Link>
               .
