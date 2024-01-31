@@ -4,20 +4,20 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-wrap -mx-3 mb-5">
+      <div className="flex flex-wrap -mx-3">
         <div className="px-3 mb-6  mx-auto w-11/12 bg-white rounded-xl">
           <div className="sm:flex items-stretch justify-between grow lg:mb-0  py-5 px-5">
             <div className="flex flex-col flex-wrap justify-center mb-5 mr-3 lg:mb-0">
-              <span className="my-0 flex text-dark font-semibold text-[1.35rem]/[1.2] flex-col justify-center">
+              <span className="my-0 flex text-black font-semibold text-[1.35rem]/[1.2] flex-col justify-center">
                 Profile
               </span>
-              <span className="pt-1 text-secondary-dark text-[0.95rem] font-medium">
+              <span className="pt-1 text-black text-[0.95rem] font-medium">
                 See all your notifications
               </span>
             </div>
             <div className="flex items-center lg:shrink-0 lg:flex-nowrap">
               <div className="relative flex items-center lg:ml-4 sm:mr-0 mr-2">
-                <span className="absolute ml-4 leading-none -translate-y-1/2 top-1/2 text-muted">
+                <span className="absolute ml-4 leading-none -translate-y-1/2 top-1/2 text-gray-400">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -34,7 +34,7 @@ const Navbar = () => {
                   </svg>
                 </span>
                 <input
-                  className="block w-full min-w-[70px] py-3 pl-12 pr-4 text-base font-medium leading-normal bg-white border border-solid outline-none appearance-none placeholder:text-secondary-dark peer text-stone-500 border-stone-200 bg-clip-padding rounded-2xl"
+                  className="block w-full min-w-[70px] py-3 pl-12 pr-4 text-base font-medium leading-normal bg-white border border-solid outline-none appearance-none placeholder:text-gray-400 peer text-stone-500 border-stone-200 bg-clip-padding rounded-2xl"
                   placeholder="Search..."
                   type="text"
                 />
@@ -57,7 +57,7 @@ const Navbar = () => {
               </div>
               <div className="relative lg:hidden flex items-center sm:ml-2 ml-auto">
                 <Link
-                  href="!#"
+                  href="#"
                   className="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary"
                 >
                   <svg
@@ -78,7 +78,7 @@ const Navbar = () => {
               </div>
               <div className="relative flex items-center ml-2 lg:ml-4">
                 <Link
-                  href="!#"
+                  href="#"
                   className="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary"
                 >
                   <svg
@@ -104,7 +104,7 @@ const Navbar = () => {
               </div>
               <div className="relative flex items-center ml-2 lg:ml-4">
                 <Link
-                  href="!#"
+                  href="#"
                   className="flex items-center justify-center w-12 h-12 text-base font-medium leading-normal text-center align-middle transition-colors duration-150 ease-in-out bg-transparent border border-solid shadow-none cursor-pointer rounded-2xl text-stone-500 border-stone-200 hover:text-primary active:text-primary focus:text-primary"
                 >
                   <svg
@@ -125,7 +125,7 @@ const Navbar = () => {
               </div>
               <div className="relative flex items-center ml-2 lg:ml-4">
                 <Link
-                  href="!#"
+                  href="#"
                   className="flex items-center justify-center w-12 h-12 text-base font-semibold leading-normal text-center text-white align-middle transition-colors duration-150 ease-in-out shadow-none cursor-pointer rounded-2xl bg-primary hover:bg-primary-dark active:bg-primary-dark focus:bg-primary-dark "
                 >
                   <span className="text-[1.15rem]">6</span>

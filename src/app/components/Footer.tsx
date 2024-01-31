@@ -50,7 +50,7 @@ const Footer = () => {
                   <li>
                     <Link
                       className="text-neutral-600 hover:text-neutral-800 font-semibold block pb-2 text-sm"
-                      href="#"
+                      href="#   "
                     >
                       About Us
                     </Link>
